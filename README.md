@@ -18,10 +18,11 @@
 * Mysql
   * [Mysql中索引的类型和其实现方法](/database/mysql/Mysql中索引的类型和其实现方法.md)
 * Redis
+  * [数据结构篇-字符串](/database/redis/【数据结构篇】字符串.md)
 
 ## :coffee: JAVA
 * 基础
-  * [线程池](/java/base/线程池解析.md)
+  * [线程池解析](/java/base/线程池解析.md)
   * [HashMap的内部原理](/java/base/HashMap的内部原理.md)
 * Spring
   
