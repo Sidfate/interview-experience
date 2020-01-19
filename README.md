@@ -20,8 +20,11 @@
 * Redis
 
 ## :coffee: JAVA
-* [HashMap的内部原理](/java/HashMap的内部原理.md)
-
+* 基础
+  * [线程池](/java/base/线程池解析.md)
+  * [HashMap的内部原理](/java/base/HashMap的内部原理.md)
+* Spring
+  
 ## :hammer: 开发工具
 * Git
-  * [Mysql中索引的类型和其实现方法](/tool/git/git的各种撤销姿势.md)
+  * [git的各种撤销姿势](/tool/git/git的各种撤销姿势.md)
