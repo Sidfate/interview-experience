@@ -24,4 +24,4 @@
 
 ## :hammer: 开发工具
 * Git
-  * [Mysql中索引的类型和其实现方法](/tool/git/git的各种撤销姿势.pdf)
+  * [Mysql中索引的类型和其实现方法](/tool/git/git的各种撤销姿势.md)
