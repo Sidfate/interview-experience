@@ -19,6 +19,7 @@
   * [Mysql中索引的类型和其实现方法](/database/mysql/Mysql中索引的类型和其实现方法.md)
 * Redis
   * [数据结构篇-字符串](/database/redis/【数据结构篇】字符串.md)
+  * [缓存雪崩、击穿和穿透]](/database/redis/缓存雪崩、击穿和穿透.md)
 
 ## :coffee: JAVA
 * 基础
