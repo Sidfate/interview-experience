@@ -16,7 +16,7 @@
     ⚡ cd test-git
     ⚡ git init
 
-![Git/Untitled.png](Git/Untitled.png)
+![学习资料](https://sidfate.oss-cn-hangzhou.aliyuncs.com/upic/20200120100758-fycaEZ.png)
 
 知识点整理：
 
@@ -30,7 +30,7 @@
 
 为了方面接下来的演示，我们先在master分支上创建并提交一个 `README.md` 文件，然后从 master上新建1个分支名为 test1。这里我就省略了具体操作步骤，纯新手请自行搜索下如何实现。
 
-![Git/Untitled%201.png](Git/Untitled%201.png)
+![README1](https://sidfate.oss-cn-hangzhou.aliyuncs.com/upic/20200120100840-X6CWy8.png)
 
 下面，我整理了多个高频率的疑难点，通过一个个场景来解答。
 
@@ -40,9 +40,9 @@
 
 小A在test1分支修改了 `README.md` ，过了几天后新加了一个文件 `a.c` 。
 
-![Git/Untitled%202.png](Git/Untitled%202.png)
+![README2](https://sidfate.oss-cn-hangzhou.aliyuncs.com/upic/20200120100909-k4oSBR.png)
 
-![Git/Untitled%203.png](Git/Untitled%203.png)
+![guessme1](https://sidfate.oss-cn-hangzhou.aliyuncs.com/upic/20200120100934-sz2wh8.png)
 
 > 知道上图中算法名称的可以在评论下留言~
 
@@ -126,7 +126,7 @@
 
 小a成功这一下用了第二种方法回退了版本，重新写了 `a.c`，然后将 test1 分支合并到了 master，交给了老师 ：
 
-![Git/Untitled%204.png](Git/Untitled%204.png)
+![guessme2](https://sidfate.oss-cn-hangzhou.aliyuncs.com/upic/20200120101025-Px5XJO.png)
 
 > 猜猜 guessme 是什么算法？
 
@@ -134,7 +134,7 @@
 
 由于老师布置的算法题太多了，小a邀请了室友小b帮他分担一些算法题，小b为了与小a区分，从master上拉了最新的内容，并自己新建了 test2 分支。聪明且“热心“的小b同学注意到小a写的 guessme 算法，觉得有更好的实现，于是他也修改了 a.c 文件。
 
-![Git/Untitled%205.png](Git/Untitled%205.png)
+![guessme3](https://sidfate.oss-cn-hangzhou.aliyuncs.com/upic/20200120101049-FOQCje.png)
 
 修改完后没有告诉小a，自己准备合并到master的时候，正好被小a看到，小a感觉基友之情被伤害了。小b为了挽回，道歉并告诉小a：“我马上把合并的内容还原回去“，然后他快速的敲下了下面一行命令：
 
