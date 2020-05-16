@@ -27,10 +27,10 @@
 
 ## :coffee: JAVA
 * 基础
-  * [线程池解析](/java/base/线程池解析.md)
-  * [HashMap的内部原理](/java/base/HashMap的内部原理.md)
-* Spring
-  
+  * [语法易错点汇总](/java/base/java基础易错点汇总.md)
+  * [理解容器-HashMap](/java/base/容器-HashMap.md)
+* JVM
+  * [类加载器](/java/jvm/classloader.md)
 ## :hammer: 开发工具
 * Git
   * [git的各种撤销姿势](/tool/git/git的各种撤销姿势.md)
