@@ -11,11 +11,11 @@
 
 * 序列化/反序列化
     
-    首先排除Java的ObjectInputStream和ObjectOutputStream，因为不仅需要保证需要序列化或反序列化的类实现Serializable接口，还要保证JDK版本一致，公司应用So Many，使用的语言也众多，这显然是不可行的，考虑再三，决定采用Objesess。
+    可以使用自定义的或者第三方的序列化工具将请求参数和返回结果序列化和反序列化。
 
 * 通信技术
 
-    Netty
+    Netty。
 
 
 * 高并发技术
@@ -46,7 +46,7 @@ RPC整体的思想是：为客户端创建服务代理类，然后构建客户�
     当Server端启动后，自动将当前Server所提供的所有带有@ZnsService注解的Service Impl注册到Zookeeper中，在Zookeeper中存储数据结构为 ip:httpPort:acceptorPort。
     
     当Client端启动后，根据扫描到的带有@ZnsClient注解的Service Interface从Zookeeper中拉去Service提供者信息并缓存到本地，同时在Zookeeper上添加这些服务的监听事件，一旦有节点发生变动（上线/下线），就会立即更新本地缓存。
-    
+
 * 负载均衡
   
     我们的提供者往往会有多个，负载均衡策略决定你选择提供者的方式，最基础的有随机选择，线性轮训，甚至可以根据提供者的处理成功次数来做选择。
